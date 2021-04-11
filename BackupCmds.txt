@@ -1,0 +1,5 @@
+mount -uw /dev/hd0
+mount -uw /fs/usb0
+cd fs/usb0
+cp -LR /packages .
+shutdown

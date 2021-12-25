@@ -3,3 +3,5 @@ Here are some extracted and reconstructed (CRCs recalculated and VBF header adde
 AR79 are for the FG2 / SZ1
 
 ER2T are for the FGX
+
+FG2IPCComms.exe is an experimental Instrument Cluster Panel firmware extractor.

@@ -24,7 +24,7 @@ For the most part (other than the splash screen updater, which needs to search f
 
 You need a real ELM327 that properly supports 125K CANBUS speeds (many clones DO NOT and will leave you thinking this software does not work) or a good quality clone, with a physical HS/MS switch (search ebay for: Forscan ELM327) and try it with Forscan first to make sure you can read the details from both the High-Speed CANBUS and Medium-Speed CANBUS in your car.  I'm not entirely sure, but Forscan may set the nonvolatile memory for the Medium-Speed setting, so this is an important step.  Always keep the ELM327 device on the Medium-Speed setting when using FG2IPCComms.exe since it is not designed to operate on the High-Speed CANBUS.
 
-NEW: Experimental support for reading and writing the FG(I) Cluster EPPROM (that have firmwares dated before April 2010).
+NEW: Experimental support for reading and writing the FG(I) Cluster EPPROM.
 
 A final warning: Do not use this software yourself, please engage the services of trained professionals to carry out any of the things mentioned here.
 

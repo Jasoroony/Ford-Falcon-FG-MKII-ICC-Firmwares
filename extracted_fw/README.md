@@ -22,7 +22,9 @@ For the most part (other than the splash screen updater, which needs to search f
 
 .Custom images may be modified by a Gamma vScroll control - ALWAYS ENSURE YOU RECORD THE VALUE USED - when later searching for a replaced image you need to use the same Gamma setting or the splash screen image will not be found and you will need to have the original firmware restored by a professional.  Forscan Beta + extended license with firmware update may help here *** I have no relationship with the Forscan people ***
 
-You need a real ELM327 that properly supports 125K CANBUS speeds (many clones DO NOT and will leave you thinking this software does not work) or a good quality clone, with a physical HS/MS switch (search ebay for: Forscan ELM327) and try it with Forscan first to make sure you can read the details from both the High-Speed CANBUS and Medium-Speed CANBUS in your car.  Always keep the ELM327 device on the Medium-Speed setting when using FG2IPCComms.exe since it is not designed to operate on the High-Speed CANBUS.
+You need a real ELM327 that properly supports 125K CANBUS speeds (many clones DO NOT and will leave you thinking this software does not work) or a good quality clone, with a physical HS/MS switch (search ebay for: Forscan ELM327) and try it with Forscan first to make sure you can read the details from both the High-Speed CANBUS and Medium-Speed CANBUS in your car.  I'm not entirely sure, but Forscan may set the nonvolatile memory for the Medium-Speed setting, so this is an important step.  Always keep the ELM327 device on the Medium-Speed setting when using FG2IPCComms.exe since it is not designed to operate on the High-Speed CANBUS.
+
+NEW: Experimental support for reading and writing the FG(I) Cluster EPPROM (that have firmwares dated before April 2010).
 
 A final warning: Do not use this software yourself, please engage the services of trained professionals to carry out any of the things mentioned here.
 
